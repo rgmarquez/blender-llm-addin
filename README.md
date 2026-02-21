@@ -49,6 +49,10 @@ For OpenAI GPT integration, replace `<input your OpenAI API key>` in the script 
 4. In Blender's 3D Viewport:
    - Select an AI model from the dropdown.
    - Enter your text prompt.
+   - Optionally, supply a **Custom LLM (OpenAI spec)** server URL and model name if you
+     want to hit a self‑hosted or networked service (for example, LM Studio running
+     on another machine). Leave these fields empty to use the built‑in OpenAI/GPT or
+     Ollama selections.
    - Click **Submit** to generate and execute the Blender Python script.
 5. View the 3D model generated in the Blender scene.
 <img src="https://github.com/mac999/blender-llm-addin/blob/main/doc/img1.PNG"></img>
